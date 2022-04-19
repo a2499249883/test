@@ -1,0 +1,42 @@
+dl {
+	position:relative;
+	width:760px;
+}
+dt {
+	position:relative;
+	padding:5px;
+}
+dt span:nth-child(1) {
+	display:block;
+	padding:5px;
+	background-color:#ddd;
+	border-radius:5px;
+}
+dt:nth-child(even) {
+	display:none;
+}
+dd:nth-child(odd) {
+	padding:5px;
+	text-indent:2em;
+}
+dd:nth-child(even) {
+	padding:5px;
+	position:relative;
+	right:-580px;
+}
+.page {
+	position:relative;
+	right:-580px;
+	bottom:5px;
+}
+.page span {
+	font:bolder 14px "宋体";
+	color:black;
+	line-height:40px;
+	padding:2px;
+	border-bottom:1px solid black;
+}
+.page span:hover {
+	color:#aaa;
+	border-bottom:1px solid #aaa;
+}
